@@ -1,6 +1,7 @@
 package concurrency.book;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class ThreadLocalDemo {
 
@@ -23,4 +24,5 @@ public class ThreadLocalDemo {
         TimeUnit.SECONDS.sleep(1);
         System.out.println("Cost:" + ThreadLocalDemo.end() + "mills ");
     }
+
 }
