@@ -12,10 +12,8 @@ public class Prac_1 {
             public void run() {
                 while (i <= 100) {
                     if (flag) {
-
-                            System.out.println(Thread.currentThread().getName()  + " " + i++);
-                            flag = false;
-
+                        System.out.println(Thread.currentThread().getName()  + " " + i++);
+                        flag = false;
                     }
                 }
 
@@ -27,10 +25,8 @@ public class Prac_1 {
             public void run() {
                 while (i <= 100 ) {
                     if (!flag) {
-
-                            System.out.println(Thread.currentThread().getName() + " " + i++);
-                            flag = true;
-
+                        System.out.println(Thread.currentThread().getName() + " " + i++);
+                        flag = true;
                     }
                 }
             }
