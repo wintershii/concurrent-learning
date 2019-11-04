@@ -3,6 +3,10 @@ package time;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * Timer和TimerTask的使用
+ *
+ */
 public class TimerTest {
     public static void main(String[] args) {
         Timer timer = new Timer();

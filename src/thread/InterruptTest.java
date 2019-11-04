@@ -20,6 +20,8 @@ public class InterruptTest {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("qqq");
         }
         System.out.println("执行中断");
         t1.interrupt();
