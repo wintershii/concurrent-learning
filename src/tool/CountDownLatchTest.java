@@ -15,6 +15,7 @@ public class CountDownLatchTest {
         final CountDownLatch c1 = new CountDownLatch(1000);
         final CountDownLatch c2 = new CountDownLatch(1000);
 
+
         for (int i = 0; i < 1000; ++i) {
             new Thread(new Runnable() {
                 @Override
